@@ -2,7 +2,6 @@ import pyautogui
 import time
 import pyperclip
 if __name__ == '__main__':
-   
     cursorLocation = pyautogui.position();
     print(cursorLocation)
 
@@ -10,7 +9,7 @@ if __name__ == '__main__':
     #  683,10
     #  191,426
     #  669,224
-    #  1220,892
+    #  1655,912
 
     pyautogui.click(1251,1061);
     time.sleep(1);
@@ -20,7 +19,7 @@ if __name__ == '__main__':
     time.sleep(1);
     print(cursorLocation)
     pyautogui.moveTo(669,224)
-    pyautogui.dragTo(1220,892,duration=1.0,button='left')
+    pyautogui.dragTo(1655,912,duration=1.0,button='left')
 
     pyautogui.hotkey('ctrl','c');
     time.sleep(1);
