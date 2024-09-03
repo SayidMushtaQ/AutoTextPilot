@@ -6,20 +6,20 @@ if __name__ == '__main__':
     print(cursorLocation)
 
     #  1251,1061
-    #  683,10
+    #  239,11
     #  191,426
     #  669,224
-    #  1655,912
+    #  1797,905
 
     pyautogui.click(1251,1061);
     time.sleep(1);
-    pyautogui.click(683,10);
+    pyautogui.click(239,11);
     time.sleep(1);
     pyautogui.click(191,426);
     time.sleep(1);
     print(cursorLocation)
     pyautogui.moveTo(669,224)
-    pyautogui.dragTo(1655,912,duration=1.0,button='left')
+    pyautogui.dragTo(1797,905,duration=1.0,button='left')
 
     pyautogui.hotkey('ctrl','c');
     time.sleep(1);
