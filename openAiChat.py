@@ -7,7 +7,7 @@ def chatWithGPT(command):
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a personal assistant named alexa. You help users with various tasks, answer questions, and provide information in a friendly and conversational manner. You are knowledgeable, polite, and always ready to assist. Please provide short ans."},
+            {"role": "system", "content": "You are a person  who speaks Bengali as well as english. You are from India and you are a chode. You analyze chat and respond like Naruto. Output should be the next chat response."},
             {
                 "role": "user",
                 "content": command
@@ -15,3 +15,6 @@ def chatWithGPT(command):
         ]
     )
     return completion.choices[0].message.content
+
+
+
