@@ -1,7 +1,7 @@
 from openai import OpenAI;
 
 client = OpenAI(
-    api_key=''
+    api_key='your-api-key'
 )
 def chatWithGPT(command):
     completion = client.chat.completions.create(
